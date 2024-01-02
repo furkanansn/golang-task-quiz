@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"github.com/furkanansn/fasttrack-task/api"
+	"github.com/furkanansn/golang-task-quiz/api"
 )
 
 func main() {

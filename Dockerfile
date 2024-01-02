@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Build the Go application
-RUN go build -o fasttrack-task .
+RUN go build -o golang-task-quiz .
 
 # Use a minimal Alpine image as the final base image
 FROM alpine:latest
@@ -17,10 +17,10 @@ FROM alpine:latest
 WORKDIR /app
 
 # Copy the binary from the builder stage to the final image
-COPY --from=builder /app/fasttrack-task /app/fasttrack-task
+COPY --from=builder /app/golang-task-quiz /app/golang-task-quiz
 
 # Expose the port the application runs on
 EXPOSE 8080
 
 # Run the application when the container starts
-CMD ["./fasttrack-task"]
+CMD ["./golang-task-quiz"]

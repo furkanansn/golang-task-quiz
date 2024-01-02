@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/furkanansn/fasttrack-task/quiz"
+	"github.com/furkanansn/golang-task-quiz/quiz"
 )
 
 type ServerConfig struct {

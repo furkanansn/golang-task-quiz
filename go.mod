@@ -1,4 +1,4 @@
-module github.com/furkanansn/fasttrack-task
+module github.com/furkanansn/golang-task-quiz
 
 go 1.23
 
