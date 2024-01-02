@@ -1,7 +1,7 @@
 
   
 
-# **Fast Track Code Test Quiz**
+# **Golang Task Quiz**
 
   
 
@@ -25,21 +25,21 @@ This is a simple CLI application that interacts with a Quiz API.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/furkanansn/fasttrack-task.git
+git clone https://github.com/furkanansn/golang-task-quiz.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd fasttrack-task
+cd golang-task-quiz
 ```
 
 3. Build the API application:
 ```bash
-go build -o fasttrack-task .
+go build -o golang-task-quiz .
 ```
 4. Run the API application:
 ```bash
-./fasttrack-task
+./golang-task-quiz
 ```
 2. Navigate to the CLI project directory:
 
@@ -72,7 +72,7 @@ bashCopy code
 
   
 
-`docker build -t fasttrack-test .`
+`docker build -t golang-task-quiz .`
 
   
 
@@ -90,7 +90,7 @@ bashCopy code
 
   
 
-`docker run -p 8080:8080 fasttrack-test`
+`docker run -p 8080:8080 golang-task-quiz`
 
   
 
